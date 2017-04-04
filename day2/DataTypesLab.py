@@ -1,4 +1,4 @@
-def data_type(n):
+def DataType(n):
   if type(n) is int:
     if n < 100:
         print('less than 100')
@@ -17,4 +17,4 @@ def data_type(n):
         print("None")
     else:
         print(n[2])
-data_type(None)
+DataType(None)
