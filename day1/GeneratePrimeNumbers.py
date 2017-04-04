@@ -1,4 +1,4 @@
-
+#this function generates positive prime numbers in a given range
 def GeneratePrimeNumbers(integer_number):
    
     prime_nums = []
