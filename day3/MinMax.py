@@ -1,7 +1,10 @@
 
 def MinMax(ListNum):
+   
     if type(ListNum) is list:
-       return [min(ListNum),max(ListNum)]
+       if (min(ListNum)==max(ListNum)):
+           return [min(ListNum)]
+       else:
+           return [min(ListNum),max(ListNum)]  
     else:
        return None
-
