@@ -1,0 +1,8 @@
+def determineTheMissing(firstList, secondList):
+
+	if firstList == secondList:
+		return 0
+	else:
+		#find the difference between the first list and the second list and store the result in another list
+		listSubtract = list(set(secondList) - set(firstList))
+        return listSubtract[0]
